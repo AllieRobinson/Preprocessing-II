@@ -224,6 +224,17 @@ nav a {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+.home .btn {
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Roboto', cursive;
+  font-size: 1.8rem;
+  width: 200px;
+  height: 45px;
+  border-radius: 15px;
+  padding: 14px;
+}
 .home .welcome {
   border-bottom: 2px dashed #C0C0C0;
   margin-top: -10px;
