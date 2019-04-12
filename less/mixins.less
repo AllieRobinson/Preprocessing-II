@@ -1,14 +1,14 @@
 // Mixins in here
-@phone ~'(max-width: 500px;)'
+@phone: ~"(max-width: 500px)";
 
-.button-style(@button-bg: @eastern-blue, @color: @white) {
+.button-style(@button-bg: @eastern-blue, @color: @white, @width: 200px, @height: 45px) {
     background-color: @button-bg;
     color: @color;
     text-align: center;
     font-family: 'Roboto', cursive;
     font-size: 1.8rem;
-    width: 200px;
-    height: 45px;
+    width: @width;
+    height: @height;
     border-radius: 15px;
     padding: 14px;
 }

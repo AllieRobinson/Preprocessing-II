@@ -5,12 +5,18 @@ header {
     font-family: 'Indie Flower', cursive;
     margin-top: 22px;
     border-bottom: 2px dashed silver;
+    @media @phone {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
     a {
         text-decoration: none;
         font-size: 4rem;
         color: @shark;
         @media @phone {
-            background-color: red;
+            text-align: center;
+            font-size: 3rem;
         }
     }
 }
@@ -22,6 +28,11 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-content: center;
+    @media @phone {
+        justify-content: space-around;
+        align-content: center;
+        height: 35px;
+    }
     a {
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
